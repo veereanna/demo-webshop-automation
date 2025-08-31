@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BatchExecutionsSuite">
+
+	<listeners>
+		<listener class-name="com.utils.MyListener" />
+		<listener class-name="com.utils.MyAutoRetry" />
+	</listeners>
+
+	<test name="batchExecutionTest">
+		<classes>
+			<class name="com.tests.ecommerce.FlipkartTest" />
+			<class name="com.tests.ecommerce.AmazonTest" />
+			<class name="com.tests.socialapps.GoogleTest" />
+			<class name="com.tests.socialapps.FaceBookTest" />
+			<class name="com.tests.food.BBQNationTest" />
+			<class name="com.tests.food.ZomatoTest" />
+		</classes>
+
+	</test>
+
+</suite>
