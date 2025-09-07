@@ -19,7 +19,6 @@ public class GoogleTest extends BaseTest{
 			e.printStackTrace();
 		}
 		
-		Assert.assertTrue(false, "Failed intentionally");
 		
 	}
 

@@ -16,7 +16,7 @@ public class BaseTest {
 	
 	@Parameters({"browser"})
 	@BeforeMethod( alwaysRun = true)
-	public void launchBrowser(@Optional("Edge") String browser) {
+	public void launchBrowser(@Optional("Chrome") String browser) {
 		
 		WebDriver driver = null ;
 		if( browser.equalsIgnoreCase("Chrome"))

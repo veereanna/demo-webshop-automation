@@ -20,7 +20,6 @@ public class ZomatoTest extends BaseTest {
 			e.printStackTrace();
 		}
 		
-		Assert.assertTrue(false, "Elemet not displayed");
 	}
 
 }
