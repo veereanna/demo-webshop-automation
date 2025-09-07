@@ -62,6 +62,7 @@
 
 					<suiteXmlFiles>
 						<suiteXmlFile>BatchExecution.xml</suiteXmlFile>
+						<suiteXmlFile>ParallelExecution.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>
